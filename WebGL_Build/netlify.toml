@@ -1,0 +1,14 @@
+[[headers]]
+  for = "/Build/*.wasm.unityweb"
+  [headers.values]
+    Content-Type = "application/wasm"
+
+[[headers]]
+  for = "/Build/*.framework.js.unityweb"
+  [headers.values]
+    Content-Type = "application/javascript"
+
+[[headers]]
+  for = "/Build/*.data.unityweb"
+  [headers.values]
+    Content-Type = "application/octet-stream"
